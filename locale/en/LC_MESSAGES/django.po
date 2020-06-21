@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-20 23:37+0600\n"
+"POT-Creation-Date: 2020-06-21 15:18+0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,10 +18,43 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: django_shop/settings.py:117
+#: cart/forms.py:8
+msgid "Quantity"
+msgstr ""
+
+#: coupons/forms.py:6
+msgid "Coupon"
+msgstr ""
+
+#: django_shop/settings.py:119
 msgid "English"
 msgstr ""
 
-#: django_shop/settings.py:118
+#: django_shop/settings.py:120
 msgid "Spanish"
+msgstr ""
+
+#: shop/templates/shop/base.html:7 shop/templates/shop/base.html:12
+msgid "My shop"
+msgstr ""
+
+#: shop/templates/shop/base.html:18
+msgid "Your cart"
+msgstr ""
+
+#: shop/templates/shop/base.html:20
+#, python-format
+msgid ""
+",\n"
+"              %(total_items)s item%(total_items_plural)s,\n"
+"                $%(total_price)s\n"
+"            "
+msgstr ""
+
+#: shop/templates/shop/base.html:26
+msgid "Your cart is empty."
+msgstr ""
+
+#: shop/templates/shop/product/detail.html:20
+msgid "Add to cart"
 msgstr ""
