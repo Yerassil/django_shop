@@ -52,7 +52,7 @@
         <tr>
           {% blocktrans with code=cart.coupon.code discount=cart.coupon.discount %}
           <td>"{{ code }}" coupon ({{ discount }}% off )</td>
-          {% endblocktrans %}}
+          {% endblocktrans %}
           <td colspan="4"></td>
           <td class="num neg">
             - ${{ cart.get_discount|floatformat:"2" }}
