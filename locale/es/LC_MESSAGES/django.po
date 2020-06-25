@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-23 16:28+0600\n"
+"POT-Creation-Date: 2020-06-25 10:10+0600\n"
 "PO-Revision-Date: 2020-06-23 10:36+0000\n"
 "Last-Translator: b'  <admin@mail.com>'\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -90,6 +90,40 @@ msgstr "Inglés"
 #: django_shop/settings.py:121
 msgid "Spanish"
 msgstr "Español"
+
+#: django_shop/urls.py:24
+msgid "admin/"
+msgstr ""
+
+#: django_shop/urls.py:25
+msgid "cart/"
+msgstr ""
+
+#: django_shop/urls.py:26
+msgid "orders/"
+msgstr ""
+
+#: django_shop/urls.py:27
+msgid "payment/"
+msgstr ""
+
+#: django_shop/urls.py:28
+#, fuzzy
+#| msgid "Coupon"
+msgid "coupons/"
+msgstr "Cupón"
+
+#: payment/urls.py:8
+msgid "process/"
+msgstr ""
+
+#: payment/urls.py:9
+msgid "done/"
+msgstr ""
+
+#: payment/urls.py:10
+msgid "canceled/"
+msgstr ""
 
 #: shop/templates/shop/base.html:7 shop/templates/shop/base.html:12
 msgid "My shop"
